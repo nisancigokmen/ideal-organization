@@ -1,0 +1,838 @@
+body {
+  margin: 0px;
+  border: 0px;
+}
+
+#titleBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo style */
+#logo h1 {
+  color: #002f75;
+  padding-top: 0.1em;
+}
+
+#logo img {
+  padding-top: 0.55em;
+}
+
+#logo ul {
+  display: flex;
+}
+
+#logo ul li {
+  list-style: none;
+}
+
+/*translate style */
+
+#translate {
+  display: flex;
+  margin-right: 4em;
+  margin-top: 2em;
+}
+
+#translate img {
+  margin-left: 1em;
+  padding: 2px 2px 2px 2px;
+  border-radius: 2em;
+}
+
+#translate img:hover {
+  border: 2px solid #002f75;
+}
+
+/*MENU BAR STYLE */
+
+#menuBar {
+  width: 100%;
+  height: 4em;
+  padding-bottom: 0.45em;
+  background-color: #002f75;
+}
+
+#menuBar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#menuBar ul li {
+  list-style: none;
+}
+
+#menuBar ul li a {
+  text-decoration: none;
+}
+
+#menuBar p {
+  font-size: 21px;
+  text-align: center;
+  color: #fff;
+}
+
+#menuBar p:hover {
+  border: 2px solid #fff;
+}
+
+/*-----------------------------------HOME PAGE -----------------------------------*/
+
+/* video style */
+
+#videoPage video {
+  padding-top: 0.25em;
+  cursor: pointer;
+}
+
+/*---------------------------ORGANIZATION PAGE ---------------------------------*/
+
+#organization {
+  width: 100%;
+  padding-top: 4.5em;
+  padding-bottom: 4.5em;
+  height: 38em;
+  background-image: linear-gradient(to right, #3781f1, #fff);
+}
+
+#organization h1 {
+  text-align: center;
+  color: rgb(1, 13, 78);
+  padding-top: 6em;
+  font-size: 36px;
+}
+
+#organization button {
+  width: 13em;
+  padding-top: 0.45em;
+  height: 4em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.55em;
+  margin-top: 1.5em;
+  margin-left: 40em;
+  border: 2px solid #fff;
+  font-size: 16px;
+  box-shadow: 0px 0px 30px #fff;
+  padding-bottom: 0.45em;
+  cursor: pointer;
+}
+
+#organization button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding-bottom: 0.45em;
+}
+
+/*--------------------------- OFFERS PAGE ----------------------------------*/
+
+#offers {
+  width: 100%;
+  height: 38em;
+  background-color: #fff;
+  padding-top: 2em;
+  padding-bottom: 6em;
+}
+
+/*offers discount  style images and pay */
+
+#discountGallery {
+  display: block;
+  margin-left: 17em;
+}
+
+#discountGallery img {
+  margin-right: 1em;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#discountGallery img:hover {
+  opacity: 1;
+  border: 2px solid #002f75;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/*-----------Close the offers menu----------- */
+
+#offersOpen {
+  padding: 2em 1.5em 1em 1em;
+  width: 13%;
+  height: 38em;
+  background-color: #002f75;
+  border-radius: 0.15em;
+  box-shadow: 0 6px 21px 0 #666, 0 12px 24px 0 #666;
+  display: none;
+  margin-top: 1em;
+}
+
+#offersOpen h2 {
+  text-align: center;
+  color: #fff;
+  padding-top: 0.8em;
+  font-size: 28px;
+}
+
+#offersOpen ul {
+  margin-top: 4.5em;
+}
+
+#offersOpen ul li {
+  list-style: none;
+  margin-top: 2em;
+  font-size: 24px;
+  margin-left: 0.2em;
+}
+
+#offersOpen ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#offersOpen ul li a:hover {
+  text-decoration: underline;
+}
+
+.closeIcon {
+  margin-left: 10em;
+  padding-bottom: 0.45em;
+  cursor: pointer;
+}
+
+.openIcon {
+  cursor: pointer;
+  margin-left: 10.5em;
+  margin-top: 3em;
+}
+
+/*-----open icon the after left page-----*/
+
+#cityInfos {
+  display: none;
+  margin-top: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 90%;
+  height: 40em;
+  background-image: linear-gradient(to right, #fff, rgb(201, 201, 201));
+}
+
+#cityInfos h1 {
+  margin-top: 2em;
+  margin-left: 6em;
+  padding-left: 3.6em;
+  color: #000;
+  box-shadow: 0 12px 24px 0 rgb(255, 255, 255), 0 12px 24px 0 rgb(255, 255, 255);
+  width: 60%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.yesAndNo img {
+  margin-top: 2em;
+  margin-left: 23em;
+}
+
+#cityInfoRght {
+  display: block;
+}
+
+#openInfo {
+  display: flex;
+}
+
+#city-info {
+  display: none;
+}
+
+/*close right city bar */
+
+#italyaInfos {
+  display: none;
+  margin-left: 12em;
+}
+
+#italyaInfos h1 {
+  color: #000;
+  border: 2px solid #002f75;
+  text-align: center;
+}
+
+#italyaInfos a {
+  text-decoration: none;
+  color: #002f75;
+}
+#italyaInfos img {
+  margin-left: 8em;
+}
+
+#italyaInfos p {
+  margin-top: 1em;
+  margin-left: 3em;
+  color: #000;
+  font-size: 18px;
+}
+
+#italyaInfos button {
+  width: 12em;
+  padding-top: 0.45em;
+  height: 3.5em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.55em;
+  margin-top: 0.5em;
+  margin-left: 17em;
+  border: 2px solid #fff;
+  font-size: 16px;
+  box-shadow: 0px 0px 30px #fff;
+  padding-bottom: 0.45em;
+  cursor: pointer;
+}
+
+#italyaInfos button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding-bottom: 0.45em;
+}
+
+#ispanyaInfos {
+  display: none;
+  margin-left: 12em;
+}
+
+#ispanyaInfos h1 {
+  color: #000;
+  border: 2px solid #002f75;
+  text-align: center;
+}
+
+#ispanyaInfos a {
+  text-decoration: none;
+  color: #002f75;
+}
+#ispanyaInfos img {
+  margin-left: 8em;
+}
+
+#ispanyaInfos p {
+  margin-top: 1em;
+  margin-left: 3em;
+  color: #000;
+  font-size: 18px;
+}
+
+#ispanyaInfos button {
+  width: 12em;
+  padding-top: 0.45em;
+  height: 3.5em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.55em;
+  margin-top: 0.5em;
+  margin-left: 17em;
+  border: 2px solid #fff;
+  font-size: 16px;
+  box-shadow: 0px 0px 30px #fff;
+  padding-bottom: 0.45em;
+  cursor: pointer;
+}
+
+#ispanyaInfos button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding-bottom: 0.45em;
+}
+
+#fransaInfos {
+  display: none;
+  margin-left: 12em;
+}
+
+#fransaInfos h1 {
+  color: #000;
+  border: 2px solid #002f75;
+  text-align: center;
+}
+
+#fransaInfos a {
+  text-decoration: none;
+  color: #002f75;
+}
+#fransaInfos img {
+  margin-left: 8em;
+}
+
+#fransaInfos p {
+  margin-top: 1em;
+  margin-left: 3em;
+  color: #000;
+  font-size: 18px;
+}
+
+#fransaInfos button {
+  width: 12em;
+  padding-top: 0.45em;
+  height: 3.5em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.55em;
+  margin-top: 0.5em;
+  margin-left: 17em;
+  border: 2px solid #fff;
+  font-size: 16px;
+  box-shadow: 0px 0px 30px #fff;
+  padding-bottom: 0.45em;
+  cursor: pointer;
+}
+
+#fransaInfos button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding-bottom: 0.45em;
+}
+
+#avusturyaInfos {
+  display: none;
+  margin-left: 12em;
+}
+#avusturyaInfos {
+  display: none;
+  margin-left: 12em;
+}
+
+#avusturyaInfos h1 {
+  color: #000;
+  border: 2px solid #002f75;
+  text-align: center;
+}
+
+#avusturyaInfos a {
+  text-decoration: none;
+  color: #002f75;
+}
+#avusturyaInfos img {
+  margin-left: 11em;
+}
+
+#avusturyaInfos p {
+  margin-top: 1em;
+  margin-left: 4em;
+  color: #000;
+  font-size: 18px;
+}
+
+#avusturyaInfos button {
+  width: 12em;
+  padding-top: 0.45em;
+  height: 3.5em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.55em;
+  margin-top: 0.5em;
+  margin-left: 18em;
+  border: 2px solid #fff;
+  font-size: 16px;
+  box-shadow: 0px 0px 30px #fff;
+  padding-bottom: 0.45em;
+  cursor: pointer;
+}
+
+#avusturyaInfos button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding-bottom: 0.45em;
+}
+
+/*-----------------offers pay--------------------- */
+
+.italyaPay {
+  display: block;
+  margin-top: 8em;
+}
+
+.italyaPay h2 {
+  text-align: center;
+  font-size: 26px;
+}
+.italyaPay h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-left: 0.35em;
+}
+
+.italyaPay button {
+  width: 12.5em;
+  height: 3.5em;
+  border-radius: 0.45em;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-left: 42em;
+}
+
+.italyaPay button:hover {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #fff;
+  color: #000;
+}
+
+.ispanyaPay {
+  display: none;
+  margin-top: 8em;
+}
+
+.ispanyaPay h2 {
+  text-align: center;
+  font-size: 26px;
+}
+.ispanyaPay h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-left: 0.35em;
+}
+
+.ispanyaPay button {
+  width: 12.5em;
+  height: 3.5em;
+  border-radius: 0.45em;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-left: 42em;
+}
+
+.ispanyaPay button:hover {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #fff;
+  color: #000;
+}
+
+.fransaPay {
+  display: none;
+  margin-top: 8em;
+}
+
+.fransaPay h2 {
+  text-align: center;
+  font-size: 26px;
+}
+.fransaPay h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-left: 0.35em;
+}
+
+.fransaPay button {
+  width: 12.5em;
+  height: 3.5em;
+  border-radius: 0.45em;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-left: 42em;
+}
+
+.fransaPay button:hover {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #fff;
+  color: #000;
+}
+
+.avusturyaPay {
+  display: none;
+  margin-top: 8em;
+}
+
+.avusturyaPay h2 {
+  text-align: center;
+  font-size: 26px;
+}
+.avusturyaPay h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-left: 0.35em;
+}
+
+.avusturyaPay button {
+  width: 12.5em;
+  height: 3.5em;
+  border-radius: 0.45em;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-left: 42em;
+}
+
+.avusturyaPay button:hover {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #fff;
+  color: #000;
+}
+
+/*-------------- ABOUT US PAGE ------------------*/
+#aboutUs {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 8em;
+  background-image: linear-gradient(to right, #3781f1, #fff);
+}
+
+#aboutUs h1 {
+  text-align: center;
+  color: rgb(65, 64, 64);
+  padding-top: 1em;
+}
+
+.commentUser {
+  padding-top: 5em;
+  text-align: center;
+  color: rgb(44, 44, 44);
+}
+
+.aboutInfo {
+  display: flex;
+  margin-top: 4em;
+}
+
+.infos {
+  margin-left: 8em;
+}
+
+.infos p {
+  font-size: 18px;
+  color: #000;
+}
+
+#videoPages iframe {
+  margin-left: 5em;
+  cursor: pointer;
+}
+
+#users {
+  display: flex;
+  margin-left: 4em;
+}
+
+#userComment {
+  margin-top: 6em;
+}
+
+.user1 {
+  margin-right: 3em;
+}
+
+.user2 {
+  margin-left: 3em;
+}
+
+.user1 img {
+  margin-left: 16em;
+}
+
+.user1 p {
+  color: #000000;
+  font-size: 18px;
+}
+
+.user2 img {
+  margin-left: 16em;
+}
+
+.user2 p {
+  color: #000000;
+  font-size: 18px;
+}
+
+#videoPages2 iframe {
+  margin-top: 6em;
+  cursor: pointer;
+  margin-left: 8em;
+}
+
+#videoPages3 {
+    margin-right: 10em;
+}
+#videoPages3 iframe {
+  margin-top: 6em;
+  cursor: pointer;
+  margin-right: 8em;
+
+}
+
+#aboutVideos {
+  display: flex;
+  justify-content: space-between;
+}
+/*---------------------CONTACT PAGE ----------------------*/
+
+#contact {
+  width: 100%;
+  height: 36em;
+  padding-top: 3em;
+  padding-bottom: 8em;
+  background-color: #fff;
+}
+
+#contacts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titleContact h1 {
+  color: #000;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.conatactInfo {
+  margin-top: 6em;
+  margin-left: 3em;
+}
+.conatactInfo p {
+  color: #000;
+  font-size: 20px;
+}
+/*social media connect */
+
+#socialNet {
+  display: flex;
+  margin-top: 3em;
+}
+
+#socialNet img {
+  margin-left: 2em;
+}
+
+#socialNet img:hover {
+  border: 1px solid #002f75;
+}
+
+#contactForm {
+  margin-top: 1em;
+  font-size: 18px;
+}
+
+#nameForm {
+  height: 1.5em;
+  font-size: 16px;
+  border: 1px solid #000;
+}
+
+#mailForm {
+  width: 12em;
+  height: 1.5em;
+  font-size: 16px;
+  border: 1px solid #000;
+}
+
+#commentForm {
+  width: 13em;
+  height: 5em;
+  font-size: 16px;
+  border: 1px solid #000;
+}
+
+#send {
+  width: 9em;
+  height: 3em;
+  margin-top: 1.5em;
+  margin-left: 3.5em;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.55em;
+  cursor: pointer;
+}
+
+#send:hover {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+#endBar {
+  width: 100%;
+  height: 26em;
+  background-color: #000;
+}
+
+#endBar h2 {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
+  font-size: 26px;
+}
+
+#ınfs1 {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+#ınfs2 {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.camera {
+  display: flex;
+}
+.camera img {
+  margin-top: 0.55em;
+}
+.camera p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 1em;
+}
+
+.aeroplane {
+  display: flex;
+}
+.aeroplane img {
+  margin-top: 0.55em;
+}
+.aeroplane p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 1em;
+}
+
+.bed {
+  display: flex;
+}
+.bed img {
+  margin-top: 0.55em;
+}
+.bed p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 1em;
+}
+
+.food {
+  display: flex;
+}
+.food img {
+  margin-top: 0.55em;
+}
+.food p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 1em;
+}
