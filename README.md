@@ -10,10 +10,11 @@ https://user-images.githubusercontent.com/91744618/154410288-6211022a-12a3-4862-
  
 <h2> Connect with me: </h2>
  
-  <a href="https://linkedin.com/in/nisancigokmen"><img src="https://i.ya-webdesign.com/images/linkedin-logo-png-for-gmail-3.png" width="72x"> </a>  &nbsp;
-   <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=nisancigokmen@gmail.com"><img src="https://assets.webiconspng.com/uploads/2017/01/Mail-Amazing-PNG-Icon.png" width="72px"> </a> 
- 
+  <a href="https://linkedin.com/in/nisancigokmen"><img src="https://i.ya-webdesign.com/images/linkedin-logo-png-for-gmail-3.png" width="66x"> </a>  &nbsp;
+   <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=nisancigokmen@gmail.com"><img src="https://img.icons8.com/ios-glyphs/60/000000/new-post.png"/> </a> 
+
  </div>
+ 
  <div id="tools">
  <h2> Languages and tools:  </h2><br>
  
