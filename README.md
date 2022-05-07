@@ -1,7 +1,5 @@
 # Ideal Organization
 
-
-
 https://user-images.githubusercontent.com/91744618/154410288-6211022a-12a3-4862-8d7e-db90834a0ad2.mp4
 
 
